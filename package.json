@@ -1,0 +1,24 @@
+{
+  "name": "my_message_generator",
+  "version": "1.0.0",
+  "description": "ASCII dude generator",
+  "main": "project.js",
+  "scripts": {
+    "test": "draw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VSelkala/my_message_generator.git"
+  },
+  "keywords": [
+    "draw",
+    "ascii",
+    "dude"
+  ],
+  "author": "Vesa Selkälä",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VSelkala/my_message_generator/issues"
+  },
+  "homepage": "https://github.com/VSelkala/my_message_generator#readme"
+}

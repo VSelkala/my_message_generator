@@ -34,5 +34,15 @@ const dude = {
     },
 };
 
-dude.head = ('')
+dude.head = (
+` _W_  
+< o o >
+ \ L / 
+  _u_ 
+ /   \ `);
+
+ console.log(dude.head);
+ 
+
+
 
