@@ -1,2 +1,2 @@
 # my_message_generator
-This is a Codecademy project for Full-Stack Engineer Career path. It is a random message generator which gives famous finnish quotes depending on the subject given by the user. Program is coded using JavaScript.
+This is a Codecademy project for Full-Stack Engineer Career path. It is an ASCII people generator. The result is a random combination of three elements: head, upper body and lower body. Program is coded using JavaScript.
