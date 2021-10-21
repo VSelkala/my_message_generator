@@ -1,3 +1,4 @@
+
 const rapperName = {
     _firstName: [],
     _middleName: [],
@@ -43,10 +44,11 @@ rapperName.firstName = ('The')
 rapperName.firstName = ('Big')
 rapperName.firstName = ('Lil')
 rapperName.middleName = ('Ice')
+rapperName.middleName = ('Smoky')
 rapperName.middleName = ('Hard')
 rapperName.middleName = ('L.')
-rapperName.middleName = ('')
 rapperName.middleName = ('Dirty')
+rapperName.middleName = ('Doggy')
 rapperName.middleName = ('Shady')
 rapperName.lastName = ('Bastard')
 rapperName.lastName = ('Cube')
@@ -55,5 +57,12 @@ rapperName.lastName = ('Killa')
 rapperName.lastName = ('Rhymes')
 rapperName.lastName = ('Smalls')
 rapperName.lastName = ('X')
+rapperName.lastName = ('')
+rapperName.lastName = ('Dogg')
 
-console.log(`Your rapper name is: ${rapperName.firstName} ${rapperName.middleName} ${rapperName.lastName}`);
+
+const giveRapperName = () => {
+    console.log(`Your rapper name is ${rapperName.firstName} ${rapperName.middleName} ${rapperName.lastName}`)
+};
+
+giveRapperName();
