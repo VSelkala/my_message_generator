@@ -1,48 +1,35 @@
-const dude = {
-    _head: [],
-    _upperBody: [],
-    _lowerBody: [],
-    get head(){
-        return this._head
+const name = {
+    _firstName: [],
+    _middleName: [],
+    _lastName: [],
+    get firstName(){
+        return this._firstName
     },
-    set head(headIn){
-        if (typeof headIn === 'string'){
-            this._head.push(headIn)
+    set firstName(firstNameIn){
+        if (typeof firstNameIn === 'string'){
+            this._firstName.push(firstNameIn)
         } else {
             console.log('Virhe: syötettävän tiedon tulee olla tekstimuodossa')
         }
     },
-    get upperBody(){
+    get middleName(){
         return this._upperBody
     },
-    set upperBody(upperBodyIn){
-        if (typeof upperBodyIn === 'string'){
-            this._upperBody.push(upperBodyIn)
+    set middleName(middleNameIn){
+        if (typeof middleNameIn === 'string'){
+            this._middleName.push(middleNameIn)
         } else {
             console.log('Virhe: syötettävän tiedon tulee olla tekstimuodossa')
         }
     },
-    get lowerBody(){
-        return this._lowerBody
+    get lastName(){
+        return this._lastName
     },
-    set lowerBody(lowerBodyIn){
-        if (typeof lowerBodyIn === 'string'){
-            this._lowerBody.push(lowerBodyIn)
+    set lastName(lastNameIn){
+        if (typeof lastNameIn === 'string'){
+            this._lastName.push(lastNameIn)
         } else {
             console.log('Virhe: syötettävän tiedon tulee olla tekstimuodossa')
         }
     },
 };
-
-dude.head = (
-` _W_  
-< o o >
- \ L / 
-  _u_ 
- /   \ `);
-
- console.log(dude.head);
- 
-
-
-

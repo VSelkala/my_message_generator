@@ -1,19 +1,22 @@
 {
   "name": "my_message_generator",
   "version": "1.0.0",
-  "description": "ASCII dude generator",
+  "description": "Rapper name generator",
   "main": "project.js",
   "scripts": {
-    "test": "draw"
+    "test": "N/A"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VSelkala/my_message_generator.git"
   },
   "keywords": [
-    "draw",
-    "ascii",
-    "dude"
+    "rapper",
+    "name",
+    "generator",
+    "codecademy",
+    "mixed",
+    "messages"
   ],
   "author": "Vesa Selkälä",
   "license": "ISC",
