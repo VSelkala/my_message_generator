@@ -3,7 +3,7 @@ const rapperName = {
     _middleName: [],
     _lastName: [],
     get firstName(){
-        return this._firstName[Math.floor(Math.random * this._firstName.length)]
+        return this._firstName[Math.floor(Math.random() * this._firstName.length)]
     },
     set firstName(firstNameIn){
         if (typeof firstNameIn === 'string'){
@@ -13,7 +13,7 @@ const rapperName = {
         }
     },
     get middleName(){
-        return this._middleName[Math.floor(Math.random * this._middleName.length)]
+        return this._middleName[Math.floor(Math.random() * this._middleName.length)]
     },
     set middleName(middleNameIn){
         if (typeof middleNameIn === 'string'){
@@ -23,7 +23,7 @@ const rapperName = {
         }
     },
     get lastName(){
-        return this._lastName[Math.floor(Math.random * this._lastName.length)]
+        return this._lastName[Math.floor(Math.random() * this._lastName.length)]
     },
     set lastName(lastNameIn){
         if (typeof lastNameIn === 'string'){
@@ -34,25 +34,26 @@ const rapperName = {
     },
 };
 
-rapperName.firstName('Icy')
-rapperName.firstName('Dr.')
-rapperName.firstName('Slim')
-rapperName.firstName('Dirty')
-rapperName.firstName('Old')
-rapperName.firstName('The')
-rapperName.firstName('Big')
-rapperName.firstName('Lil')
-rapperName.middleName('Ice')
-rapperName.middleName('Hard')
-rapperName.middleName('L.')
-rapperName.middleName('')
-rapperName.middleName('Dirty')
-rapperName.middleName('Shady')
-rapperName.lastName('Bastard')
-rapperName.lastName('Cube')
-rapperName.lastName('Tea')
-rapperName.lastName('Killa')
-rapperName.lastName('Rhymes')
-rapperName.lastName('Smalls')
-rapperName.lastName('X')
+rapperName.firstName = ('Icy')
+rapperName.firstName = ('Dr.')
+rapperName.firstName = ('Slim')
+rapperName.firstName = ('Dirty')
+rapperName.firstName = ('Old')
+rapperName.firstName = ('The')
+rapperName.firstName = ('Big')
+rapperName.firstName = ('Lil')
+rapperName.middleName = ('Ice')
+rapperName.middleName = ('Hard')
+rapperName.middleName = ('L.')
+rapperName.middleName = ('')
+rapperName.middleName = ('Dirty')
+rapperName.middleName = ('Shady')
+rapperName.lastName = ('Bastard')
+rapperName.lastName = ('Cube')
+rapperName.lastName = ('Tea')
+rapperName.lastName = ('Killa')
+rapperName.lastName = ('Rhymes')
+rapperName.lastName = ('Smalls')
+rapperName.lastName = ('X')
 
+console.log(`Your rapper name is: ${rapperName.firstName} ${rapperName.middleName} ${rapperName.lastName}`);
